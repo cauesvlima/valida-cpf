@@ -1,0 +1,87 @@
+/*Global*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Poppins', sans-serif;
+}
+
+/*Cabeçalho*/
+#cabecalho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(90deg, #155dab 0%, #152eab 100%);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-size: cover;
+    background-position: center;
+
+    padding: 40px 0px;
+
+    color: white;
+}
+
+
+/*Corpo do site*/
+body{
+    background-color: #d4d4d4;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.corpo
+{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: white;
+    
+    
+
+    margin: 30px 0px 5px 0px;
+    padding: 20px;
+    font-size: 27px;
+    padding-bottom: 120px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
+   
+}
+
+.corpo p{
+    margin-bottom: 5px;
+}
+
+.cpf{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+}
+
+.enviar{
+    margin-top: 5px;
+    width: 200px;
+    height: 40px;
+}
+
+.copyright{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: -200px;
+    
+}
+
+
